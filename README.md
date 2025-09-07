@@ -12,7 +12,7 @@ environments = [
     pygame.image.load("desert.png"), 
     pygame.image.load("ocean.png") 
 ]
-# Load mimicry creature images
+# Load mimicry creature images 
 creatures = {
     "forest": pygame.image.load("chameleon.png"),
     "desert": pygame.image.load("lizard.png"),
