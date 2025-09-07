@@ -10,7 +10,7 @@ pygame.display.set_caption("🦎 Mimicry Simulation 🦋")
 environments = [
     pygame.image.load("forest.png"), 
     pygame.image.load("desert.png"), 
-    pygame.image.load("ocean.png")
+    pygame.image.load("ocean.png") 
 ]
 
 # Load mimicry creature images
