@@ -1,8 +1,6 @@
 # mimicry-simulation
-
 # Initialize pygame
 pygame.init()
-
 # Screen settings
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
