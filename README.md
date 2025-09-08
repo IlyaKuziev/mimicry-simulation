@@ -14,10 +14,8 @@ environments = [
 # Load mimicry creature images 
 creatures = {
     "forest": pygame.image.load("chameleon.png"),
-    "desert": pygame.image.load("lizard.png"),
-    "ocean": pygame.image.load("octopus.png")
+    "desert": pygame.image.load("lizard.png"),   "ocean": pygame.image.load("octopus.png")
 }
-
 # Resize images
 environments = [pygame.transform.scale(img, (WIDTH, HEIGHT)) for img in environments]
 for key in creatures:
