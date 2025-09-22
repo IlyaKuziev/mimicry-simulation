@@ -5,7 +5,7 @@ pygame.init()
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT)) 
 pygame.display.set_caption("🦎 Mimicry Simulation 🦋") 
-# Load background images (mimicry environment) 
+# Load background images (mimicry environment)
 environments = [ 
     pygame.image.load("forest.png"),  
     pygame.image.load("desert.png"), 
